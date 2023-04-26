@@ -30,6 +30,14 @@ of the project and set the value of SECRET_KEY to a secret string:
 
         SECRET_KEY=my_secret_key
 
+Then, init the mongodb database;
+
+       npm run initdb
+
+Then, you can use this script to test the app.js
+
+       npm test
+
 Then, start the server using npm start:
 
         npm start
